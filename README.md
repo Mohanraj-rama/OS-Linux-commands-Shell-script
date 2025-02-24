@@ -203,6 +203,11 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+```
+1:Hello world
+2:hello world
+
+```
 
 
 cat < newfile 
