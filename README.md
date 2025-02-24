@@ -152,29 +152,47 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+```
+Hello world
+
+```
 
 
 
 grep hello newfile 
 ## OUTPUT
+```
+hello world
+
+```
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+```
+Hello world
 
+```
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+```
+Hello world
+hello world
+
+```
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-
+```
+2
+```
 
 
 
