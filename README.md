@@ -231,6 +231,11 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+```
+Hello world
+hello world
+
+```
 
 
 
@@ -239,8 +244,14 @@ egrep -w '(H|h)ello' newfile
 
 
 
+
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+```
+Hello world
+hello world
+
+```
 
 
 
