@@ -241,6 +241,8 @@ hello world
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/30e0dd49-910d-43ba-b297-947a7440d448)
+
 
 
 
