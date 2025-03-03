@@ -485,7 +485,10 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/0f8b3009-9300-40f6-adf2-7e99a62e2ce7)
 
+```
 
 cat > file22
 ```
@@ -498,14 +501,20 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/eef3b162-b211-41ae-9257-c980ae2845e5)
 
+```
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/5a3b86e0-1f23-4d6c-b8ec-2cca55155b39)
 
+```
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -521,7 +530,10 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/8082705d-0d29-44ff-a3c7-2499bd15d084)
 
+```
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
