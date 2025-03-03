@@ -261,7 +261,7 @@ hello world
 egrep '(^hello)' newfile 
 ## OUTPUT
 ```
-![image](https://github.com/user-attachments/assets/e801ee0f-d4d1-4360-b3f9-06f56e408632)
+hello world
 
 ```
 
@@ -270,12 +270,14 @@ egrep '(^hello)' newfile
 egrep '(world$)' newfile 
 ## OUTPUT
 ```
-![image](https://github.com/user-attachments/assets/809c05ff-0e6a-4a37-95fe-8f819857ab93)
+Hello world
+hello world
+
 
 ```
 
 
-egrep '(World$)' newfile 
+egrepegrep '(world$)' newfile  '(World$)' newfile 
 ## OUTPUT
 ```
 ![image](https://github.com/user-attachments/assets/9e7921b7-b1bc-4ba3-a13d-2dfab01ffe02)
@@ -408,27 +410,44 @@ sed -n -e '/tom/,/Joe/p' file23
 
 seq 10 
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/dd3a6f39-cea1-401e-bce3-a9ded55d1929)
 
+```
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/9c506667-b038-4828-a923-4de0ffc950c5)
+
+```
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/827c3181-3bfb-4c45-8837-d8ab7fbedde0)
 
+```
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/2de12e3a-ef9d-4c7e-ba5b-24b806dbb225)
+
+```
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/d381034a-8a19-4d35-af9a-37a16f17c684)
 
+```
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
