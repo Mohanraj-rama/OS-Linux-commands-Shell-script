@@ -277,10 +277,12 @@ hello world
 ```
 
 
-egrepegrep '(world$)' newfile  '(World$)' newfile 
+egrep '(World$)' newfile 
 ## OUTPUT
 ```
-![image](https://github.com/user-attachments/assets/9e7921b7-b1bc-4ba3-a13d-2dfab01ffe02)
+Linux is best in this World
+
+
 
 ```
 
@@ -451,14 +453,25 @@ seq 2 | sed '2i hello'
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/104b03be-9692-4e4f-8fbf-ca58626e09c1)
 
+```
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/03206e04-e91d-4497-9ee7-8769e19bf042)
 
+```
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/e26a288b-fa9c-4ae7-9e0c-b176bb3d86bb)
+
+```
 
 
 #Sorting File content
