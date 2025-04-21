@@ -538,13 +538,19 @@ cat urllist.txt | tr -d ' '
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/aa4199d8-8855-44f6-a225-c47a8ee24d68)
 
+```
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/4ee9e14b-a80c-4bce-916b-0fdb3a8df352)
 
+```
 
 mkdir backupdir
  
@@ -552,11 +558,17 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/c552e161-8e8c-4da1-b9c4-91122bf8c110)
 
+```
 
 tar -xvf backup.tar
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/82f697f4-ad3d-45df-9262-46f1a7092b6a)
 
+```
 gzip backup.tar
 
 ls .gz
@@ -571,9 +583,17 @@ gunzip backup.tar.gz
 echo '#!/bin/sh' > my-script.sh
 echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
+```
+![image](https://github.com/user-attachments/assets/790bd1aa-46ab-45ee-8f7c-62a7624334f6)
+
+```
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/ffa76409-01df-45b2-b181-a713d45ae02d)
+
+```
 
  
 cat << stop > herecheck.txt
@@ -586,7 +606,10 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/3f51e102-ee52-4fd4-9f38-3387ccc9d8d8)
 
+```
 
 cat < scriptest.sh 
 ```bash
