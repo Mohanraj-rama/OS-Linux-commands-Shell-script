@@ -626,6 +626,10 @@ echo 'The $$ is ' $$
 ps
 ^d
  ```
+```
+![image](https://github.com/user-attachments/assets/285a9979-4b76-4860-b58a-b7de04ac4945)
+
+```
 
 cat scriptest.sh 
 ```bash
@@ -647,24 +651,37 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/527b1a89-dca6-47ff-b2f1-0e6690eb66d0)
 
+```
  
 ls file1
 ## OUTPUT
 
 echo $?
 ## OUTPUT 
+```
+![image](https://github.com/user-attachments/assets/188401e7-6283-4d38-9dae-9230a16f15ad)
+
+```
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+```
+![image](https://github.com/user-attachments/assets/88c384bf-fcc5-41e7-a6fc-45a13e81599f)
+
+```
 abcd
  
 echo $?
  ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/24a4a6b8-3e9b-4799-afb1-8bd482daba0a)
 
+```
 
  
 # mis-using string comparisons
@@ -696,14 +713,20 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+```
+![image](https://github.com/user-attachments/assets/dc7fee45-8ba4-4e28-8d77-b6e4f729e010)
 
+```
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/436f0be7-4c9e-4dae-bf6b-8b5466026155)
 
+```
 
 # check file ownership
 cat < psswdperm.sh 
@@ -730,7 +753,10 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/cf7d2839-03cf-4417-8375-82380cf64c28)
 
+```
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -776,7 +802,10 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+```
+![image](https://github.com/user-attachments/assets/ef8add76-0d52-4f5f-93fa-d35b3c3bd840)
 
+```
 
 
 # using numeric test comparisons
@@ -820,6 +849,10 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+```
+![image](https://github.com/user-attachments/assets/0dda8ac8-835f-4069-8b13-47d816e3f27e)
+
+```
 
 # check if a file
 cat > ifnested.sh 
