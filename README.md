@@ -626,10 +626,6 @@ echo 'The $$ is ' $$
 ps
 ^d
  ```
-```
-![image](https://github.com/user-attachments/assets/285a9979-4b76-4860-b58a-b7de04ac4945)
-
-```
 
 cat scriptest.sh 
 ```bash
@@ -652,7 +648,8 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 ```
-![image](https://github.com/user-attachments/assets/527b1a89-dca6-47ff-b2f1-0e6690eb66d0)
+![image](https://github.com/user-attachments/assets/3f51e102-ee52-4fd4-9f38-3387ccc9d8d8)
+
 
 ```
  
@@ -714,7 +711,8 @@ fi
 ```
 ##OUTPUT
 ```
-![image](https://github.com/user-attachments/assets/dc7fee45-8ba4-4e28-8d77-b6e4f729e010)
+![image](https://github.com/user-attachments/assets/a6f5e967-09a3-43d8-9d61-9b0acc1e9cbc)
+
 
 ```
 
@@ -850,7 +848,8 @@ $ chmod 755 iftest.sh
 $ ./iftest.sh 
 ##OUTPUT
 ```
-![image](https://github.com/user-attachments/assets/0dda8ac8-835f-4069-8b13-47d816e3f27e)
+![image](https://github.com/user-attachments/assets/40243599-08a1-4b41-887c-6cda998cc04b)
+
 
 ```
 
@@ -858,7 +857,8 @@ $ ./iftest.sh
 cat > ifnested.sh 
 ```bash
 \#!/bin/bash
-if [ -e $HOME ]
+
+echoif [ -e $HOME ]
 then
 echo “$HOME The object exists, is it a file?”
 if [ -f $HOME ]
@@ -871,8 +871,7 @@ then
 echo “But $HOME/.bash_history is a file!”
 fi
 fi
-else
-echo “Sorry, the object does not exist”
+else “Sorry, the object does not exist”
 fi
 ^d
 ```
@@ -902,7 +901,10 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+```
+orry, the object does not exist
 
+```
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -930,7 +932,10 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+```
+Sorry, you are not allowed here
 
+```
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -946,7 +951,10 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+```
+The file exists and you can write to it
 
+```
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -965,6 +973,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+## OUTPUT
+
  
 cat > whiletest
 ```bash
