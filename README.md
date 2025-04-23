@@ -974,6 +974,7 @@ $ chmod 755 casecheck.sh
 $ ./casecheck.sh 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/870c504b-cbbd-4b0f-827e-9d36038674e1)
  
 cat > whiletest
 ```bash
