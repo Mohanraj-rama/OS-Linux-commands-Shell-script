@@ -648,13 +648,12 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 ```
-![image](https://github.com/user-attachments/assets/3f51e102-ee52-4fd4-9f38-3387ccc9d8d8)
-
 
 ```
  
 ls file1
 ## OUTPUT
+
 
 echo $?
 ## OUTPUT 
