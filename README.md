@@ -657,27 +657,18 @@ ls file1
 
 echo $?
 ## OUTPUT 
-```
 ![image](https://github.com/user-attachments/assets/188401e7-6283-4d38-9dae-9230a16f15ad)
-
-```
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
-```
 ![image](https://github.com/user-attachments/assets/88c384bf-fcc5-41e7-a6fc-45a13e81599f)
-
-```
 abcd
  
 echo $?
  ## OUTPUT
-```
-![image](https://github.com/user-attachments/assets/24a4a6b8-3e9b-4799-afb1-8bd482daba0a)
-
-```
+ ![image](https://github.com/user-attachments/assets/24a4a6b8-3e9b-4799-afb1-8bd482daba0a)
 
  
 # mis-using string comparisons
@@ -709,21 +700,14 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-```
 ![image](https://github.com/user-attachments/assets/a6f5e967-09a3-43d8-9d61-9b0acc1e9cbc)
-
-
-```
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-```
 ![image](https://github.com/user-attachments/assets/436f0be7-4c9e-4dae-bf6b-8b5466026155)
-
-```
 
 # check file ownership
 cat < psswdperm.sh 
@@ -750,10 +734,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-```
-![image](https://github.com/user-attachments/assets/cf7d2839-03cf-4417-8375-82380cf64c28)
 
-```
+![image](https://github.com/user-attachments/assets/cf7d2839-03cf-4417-8375-82380cf64c28)
 
 # check if with file location
 cat>ifnested.sh 
